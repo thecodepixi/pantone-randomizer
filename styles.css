@@ -13,8 +13,8 @@
 }
 
 #color-window {
-    height: 700px;
-    width: 500px;
+    height: 600px;
+    width: 400px;
     background-color: black;
     align-self: center;
     display: flex;
@@ -23,7 +23,7 @@
 }
 
 #color-name {
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: black;
     align-self: flex-start;
     text-transform: uppercase;
@@ -32,7 +32,7 @@
 }
 
 #button {
-    height: 200px;
+    height: 150px;
     width: 100%;
     background-color: white;
     color: black;
