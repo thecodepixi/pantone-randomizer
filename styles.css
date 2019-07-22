@@ -13,8 +13,8 @@
 }
 
 #color-window {
-    height: 600px;
-    width: 400px;
+    height: 550px;
+    width: 350px;
     background-color: black;
     align-self: center;
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 #button {
-    height: 150px;
+    height: 175px;
     width: 100%;
     background-color: white;
     color: black;
@@ -45,6 +45,8 @@
 button:focus {
     outline: none;
 }
+
+
 
 
 
