@@ -28,6 +28,7 @@
     align-self: flex-start;
     text-transform: uppercase;
     background-color: transparent;
+    padding-bottom: 30%;
 }
 
 #button {
@@ -36,9 +37,8 @@
     background-color: white;
     color: black;
     align-self: flex-end;
-    align-content: flex-start;
+    text-align: left;
     font-size: 3rem;
-    border: 1px solid lightgrey;
 }
 
 button:focus {
