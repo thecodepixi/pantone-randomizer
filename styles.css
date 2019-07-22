@@ -9,15 +9,14 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #color-window {
-    height: 70%;
-    width: 70%;
-    background-color: white;
+    height: 700px;
+    width: 500px;
+    background-color: black;
     align-self: center;
-    border-radius: 20px;
     display: flex;
     justify-content: center;
     border: 2px solid grey;
@@ -25,22 +24,20 @@
 
 #color-name {
     font-size: 2rem;
-    color: white;
+    color: black;
     align-self: flex-start;
     padding: 2rem;
     text-transform: uppercase;
     text-align: center;
     background-color: transparent;
-    text-shadow: 1px 2px 2px black;
 }
 
 #button {
-    height: 100px;
-    width: 300px;
-    background-color: grey;
-    color: white;
-    align-self: center;
-    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    align-self: flex-end;
     font-size: 3rem;
     border: 1px solid lightgrey;
 }
