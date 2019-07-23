@@ -13,7 +13,7 @@
 }
 
 #color-window {
-    height: 550px;
+    height: 525px;
     width: 350px;
     background-color: black;
     align-self: center;
@@ -34,7 +34,7 @@
     width: 100%;
 }
 
-#button {
+#get-color {
     height: 175px;
     width: 100%;
     background-color: white;

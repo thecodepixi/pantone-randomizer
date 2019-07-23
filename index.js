@@ -61,7 +61,7 @@ const COLORS = [   {"hex": "#9BD3DD", "name": "629 C" },
 {"hex": "#072B31", "name": "546 C" },
 ]
 
-const BUTTON = document.getElementById('button');
+const BUTTON = document.getElementById('get-color');
 const COLORWINDOW = document.getElementById('color-window');
 const COLORNAME = document.getElementById('color-name')
 
