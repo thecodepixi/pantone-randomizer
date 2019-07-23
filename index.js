@@ -67,12 +67,13 @@ const COLORNAME = document.getElementById('color-name')
 
 function changeColor(){
 BUTTON.addEventListener("click", function(){
+
     var randomColor = COLORS[Math.round(Math.random()*COLORS.length)];
  
     COLORWINDOW.style.backgroundColor = randomColor["hex"];
-    COLORNAME.innerText = `PANTONE ${randomColor["name"]}`;
+    COLORNAME.innerText = randomColor["name"];
 
  })
-}
+};
 
 changeColor();
