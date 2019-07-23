@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    background-color: black;
+    background-color: lightgrey;
 }
 
 #main {
@@ -19,7 +19,8 @@
     align-self: center;
     display: flex;
     justify-content: center;
-    border: 2px solid grey;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px black, 10px 10px 10px black;
 }
 
 #color-name {
@@ -41,6 +42,7 @@
     align-self: flex-end;
     text-align: left;
     font-size: 3.5rem;
+    border: none;
 }
 
 button:focus {
